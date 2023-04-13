@@ -1,0 +1,580 @@
+*
+{margin: 0;
+padding: 0;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus {
+    outline: none;
+  }
+
+body {
+    font-family: 'Inter', sans-serif, 'Roboto', sans-serif;
+}
+/* hlavička */
+
+
+.header{
+background-color: #8F80B8;
+
+
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.navlist li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-left: 160px;
+   
+}
+.navlist li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navlist li a:hover {
+  color: black;
+}
+    
+
+.logo{
+    width: 50px;
+    height: 70px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+cursor: pointer;}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    width: 300px;
+    height: 44px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 1.5px solid black;
+  }
+  
+  .search-input {
+    width: 200px;
+    height: 100%;
+    background-color: white;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .search-input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #666;
+  }
+  
+
+  
+  
+  button[type="submit"] {
+    width: 100px;
+    height: 100%;
+    background-color: #FC8251;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: 1.5px solid black;
+    border-left: 1.5px solid black;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: orangered;
+  
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  .cart{
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 23px;
+  }
+
+  /* main sekce */
+
+  .background{
+    
+    background: rgba(255, 160, 122, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-top: 90px;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 700px;
+  }
+
+.main{
+  display: flex;
+}
+
+.tree{
+  width: 650px;
+  padding-left: 160px;
+
+}
+  
+.main_title{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 105px;
+
+color: rgba(0, 0, 0, 0.8);
+margin-left: 150px;
+margin-top: 80px;
+}
+
+.main_subtile{
+  margin-left: 150px;
+  margin-top: 20px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.main_button{
+  margin-left: 150px;
+  margin-top: 100px;
+  width: 250px;
+  height: 70px;
+  background: #FFA500;
+border-radius: 25px;
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 30px;
+text-align: center;
+cursor: pointer;
+text-align: center;
+padding-top: 20px;
+padding-left: 20px;
+display: flex;
+
+}
+
+.main_button:hover {
+  background-color: #F78E5D;
+}
+
+
+
+.button_icon{ width: 30px;padding-left: 8px; margin-top: -2px;}
+
+
+/* Nabídky pokojové/venkovní */
+
+.main_offer{display: flex;}
+
+.tree2{
+  width: 200px;
+  
+  margin-left: 150px;
+}
+
+.tree3{
+  width: 270px;
+  
+  margin-left: 150px;
+}
+
+.garden_offer{
+  width: 750px;
+  display: flex;
+background-color: #FC8251;
+background: rgba(255, 160, 122, 0.15);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-left: 135px;
+margin-top: 80px;}
+
+.offer_title{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 60px;
+color: rgba(0, 0, 0, 0.8);
+margin-top: 40px;
+margin-left: 80px;
+}
+
+.offer_subtitle{font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-left: 80px;
+  margin-top: 70px;
+  cursor: pointer;}
+
+  .offer_subtitle:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  /* co nabízíme */
+
+  .about_information{display: flex;
+  }
+  
+  .about{
+  height: 850px ;
+  background: rgba(143, 128, 184, 0.15);
+  margin-top: 120px;
+  }
+
+  .about_title{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    text-align: center;
+    padding-top: 80px;
+    color: rgba(0, 0, 0, 0.8);
+    }
+
+    .about_skill{
+      background-color: #FC8251;
+      width: 375px;
+      height: 425px; 
+      background: #FFA07A;
+      border-radius: 20px;
+     align-items: center;
+     margin-left: 205px;
+     margin-top: 110px;
+    }
+
+    .about_skill_title{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      padding-top: 30px;
+    }
+
+    .icon{
+      width: 90px;
+      padding-left: 140px;
+      padding-top: 40px;
+    }
+
+    .about_skill_subtitle{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    padding-top: 30px;}
+
+    .about_skill_subtitle1{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    padding-top: 90px;}
+
+    /* tajemství našich květin */
+    .flower_background{
+    width: 1400px;
+    height: 650px;
+    background: rgba(255, 160, 122, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 70px;
+    display: block;
+   
+    }
+
+    .img_garden{
+      width: 530px;
+      height: 460px;
+      border-radius: 10px;
+      padding-left: 80px;
+      padding-top: 90px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    }
+    
+    .flower_secret{display: flex;}
+
+    .flower_title{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 90px;
+      line-height: 105px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      margin-top: 50px;
+    }
+
+      .flower_subtitle{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        color: #000000;
+        padding-top: 80px;
+        padding-left: 190px;
+      }
+
+     .point{
+      padding-left: 190px;
+      padding-top: 100px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 30px;
+     }
+
+     /* infromace (kontakt....) */
+    
+     .info {
+      display: flex;
+      background: rgba(143, 128, 184, 0.3);
+      margin-top: 50px;
+      padding-bottom: 30px;
+      width: 1900px;
+    }
+    
+    .info_contact{padding-left: 260px;
+    padding-top: 20px;}
+
+    .info_icons_all{padding-left: 400px;
+    padding-top: 20px;}
+
+    .info_terms{
+      padding-left: 300px;
+      padding-top: 20px;
+    }
+    
+    .info_icons_container {
+      display: flex;
+      background-color: white;
+      padding-top:10px;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    
+    .info_icons_container img {
+      margin-right: 10px;
+    }
+
+    .info_icon{width: 40px;
+    cursor: pointer;
+  padding-left: 5px;}
+
+  .info_icons_title{text-align: center;}
+ /* copy */
+  .copy{background: #8F80B8;
+  width: 1910px;
+height: 40px;}
+
+.copy_title{
+  padding-left: 805px;
+  padding-top: 10px;
+}
+
+    
+
+
+@media screen and (max-width: 1280px)
+{
+  /* hlavička */
+  .header{width: 1500px;}
+
+ .cart{margin-left: 210px;}
+
+  .search-bar{display: none;}
+
+  .navlist li{margin-left: 120px;}
+
+  /* upoutavácí sekce */
+
+  .tree{
+    width: 670px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    
+  }
+
+  .background{
+    width: 1130px;
+    margin-left: 115px;
+  }
+
+  .main_button
+  {
+    margin-top: 30px;
+  }
+
+  /* offer sekce */
+  .garden_offer{
+    width: 500px;
+    margin-left: 115px;
+  }
+
+  .tree2{margin-left: 0px;}
+  .tree3{margin-left: -40px;}
+
+  .offer_title{margin-left: 60px;}
+
+  .offer_subtitle{ margin-left: 60px;
+  }
+  
+/* sekce co nabízíme */
+
+.about{ width: 1400px;}
+
+.icon{
+  padding-left: 180px;
+}
+
+.about_skill{width: 435px;
+margin-left: 18px;}
+
+.about_skill_subtitle{
+  font-size: 20px;
+}
+.about_skill_subtitle1{
+  font-size: 20px;
+  padding-top: 90px;
+}
+
+/* květiny */
+.flower_title{
+ padding-left: 200px;
+}
+
+.flower_background{
+  margin-left: 40px;
+  width: 1300px;
+}
+
+/* kontakty */
+.info_contact{padding-left: 100px;
+  padding-top: 20px;}
+
+  .info_icons_all{padding-left: 280px;
+    padding-top: 20px;}
+
+    
+    .info_terms{
+      padding-left: 260px;
+      padding-top: 20px;
+    }
+    .info {
+      display: flex;
+      background: rgba(143, 128, 184, 0.3);
+      margin-top: 50px;
+      padding-bottom: 30px;
+      width: 1400px;
+}
+
+.copy{background: #8F80B8;
+  width: 1400px;
+height: 40px;}
+
+.copy_title{padding-left: 550px;}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px)
+{
+  .background{
+    margin-left: 110px;
+  }
+
+  .cart{
+    margin-left: 250px;
+  }
+
+  /* offer sekce */
+  .garden_offer{
+    width: 500px;
+    margin-left: 116px;
+  }
+
+  .offer_title{
+    margin-left: 40px;
+  }
+
+  .offer_subtitle{
+    margin-left: 60px;
+  }
+
+  /* květiny */
+
+  .flower_title{
+    padding-left: 260px;
+    white-space: nowrap;
+  }
+
+  .flower_background{margin-left: 17px;}
+  .info {
+    display: flex;
+    background: rgba(143, 128, 184, 0.3);
+    margin-top: 50px;
+    padding-bottom: 30px;
+    width: 1600px;
+}
+
+.about_skill{
+  margin-left: 6px;
+}
+
+.info_contact{
+  padding-left: 80px;
+}
+}}
