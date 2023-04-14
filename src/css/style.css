@@ -183,6 +183,8 @@ text-align: center;
 padding-top: 20px;
 padding-left: 20px;
 display: flex;
+color: #000000;
+  text-decoration: none;
 
 }
 
@@ -422,7 +424,144 @@ height: 40px;}
   padding-top: 10px;
 }
 
-    
+   /* SHOP */
+
+   .cart_shop{margin-left: 220px;
+  width: 40px;}
+
+  .navlist_shop li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 240px;
+     
+  }
+  .navlist_shop li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navlist_shop li a:hover {
+    color: black;
+  }
+
+  .room_title{
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 30px;
+  }
+
+  .flower_background_section{
+   width: 360px;
+  height: 400px;
+  margin-top: 90px;
+  margin-left: 120px;
+  background: rgba(255, 160, 122, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  }
+  
+
+  .flower_shop_img{
+    width: 320px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .flower_item{display: flex;}
+
+  .flower_item_title{margin-left: 120px;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 30px;}
+
+  .flower_price{
+    margin-left: 120px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+
+
+  }
+/* price */
+  .room_flower{
+  margin-top: -100px;
+}
+
+  .flower_info{margin-top: 30px;}
+
+  .flower_rate{margin-top: 30px;
+  margin-left: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  color: #8F80B8;}
+
+  .main_button_shop{  margin-left: 170px;
+    margin-top: 30px;
+    width: 250px;
+    height: 70px;
+    background: #FFA500;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  
+  }
+  
+  .main_button_shop:hover {
+    background-color: #F78E5D;
+  }
+
+.container{display: flex;
+}
+
+.room_flower_section{
+  margin-left: 90px;
+}
+
+.flower_shop_img_tree{
+  width: 250px;
+  margin-left: 65px;
+  
+}
+
+.flower_shop_img_secondtree{
+  width: 210px;
+  margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1280px)
@@ -524,6 +663,15 @@ height: 40px;}
 
 .copy_title{padding-left: 550px;}
 
+.room_flower_section{margin-left: -41px;}
+
+.room_title{margin-left: 251px;}
+
+.navlist_shop li {margin-left: 107px;}
+
+.room_flower_section{
+  margin-left: -50px;
+}
 
 
 
@@ -532,6 +680,7 @@ height: 40px;}
 
 @media screen and (max-width: 640px)
 {
+  
   .background{
     margin-left: 110px;
   }
@@ -577,4 +726,23 @@ height: 40px;}
 .info_contact{
   padding-left: 80px;
 }
-}}
+
+.room_title{
+  padding-left: 190px;
+  white-space: nowrap;
+}
+
+.room_flower_section{
+  margin-left: -73px;
+}
+}
+}
+
+
+
+
+
+
+
+
+
